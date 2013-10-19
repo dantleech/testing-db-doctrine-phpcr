@@ -1,0 +1,16 @@
+{
+    "name": "dantleech/testing-doctrine-odm-phpcr",
+    "description": "Testing Tools for Doctrine PHPCR-ODM",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "require": {
+        "doctrine/phpcr-odm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Dtl\\Testing\\Doctrine\\Odm\\Phpcr": "lib/" }
+    }
+}
